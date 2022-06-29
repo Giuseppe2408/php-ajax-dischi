@@ -1,5 +1,10 @@
 <?php
-    include_once __DIR__ . './database/db.php'
+    include_once __DIR__ . './database/db.php';
+
+
+    foreach ($arrayCard as $music) {
+        $gender = $music['genre'];
+    }
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +20,12 @@
     <div id="app">
         <header>
             <img id="logo" src="https://i.kinja-img.com/gawker-media/image/upload/s--ypN6iH9q--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/zrarqnhmkoaihvzss5ek.jpg" alt="">
+            <form action="" method="get">
+                <select name="" id="">
+                    <option v-for="genre in arrayMusic" :name="genre.genre" :value="genre.genre">{{genre.genre}}</option>             
+                </select>
+                <button name='genere'>submit</button>  
+            </form>
         </header>
         <div id="list">
             <div id="mycard" v-for="card in arrayMusic">
