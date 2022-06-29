@@ -70,5 +70,6 @@ $arrayCard = [
             "author"=> "Michael Jacjson",
             "genre"=> "Pop",
             "year"=> "1987"
-        ]
+        ],
+        
     ]?>

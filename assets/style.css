@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    background-color: #1b1414;
+}
+
+
+#logo {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+}
+
+#list{
+        
+    background-color: #1e2d3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mycard {
+    background-color: #2e3a46;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}
+h1{
+    color: white;
+}
+#margin-t{
+    margin-top: 50px;
+}
+span{
+    color: grey;
+}
